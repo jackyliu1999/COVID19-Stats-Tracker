@@ -9,5 +9,7 @@ Coronaverse was built using Python incorporating the libraries: requests, Tkinte
 
 **Who built Coronaverse?**  
 Jacky Liu - https://github.com/jackyliu1999
+
 Jacky Nguyen - https://github.com/jacky-h-nguyen
+
 Anson Wong - https://github.com/ansonwong250
