@@ -1,0 +1,12 @@
+"stats today", "daily stats", "today" = Get stats from current day
+"financial help canada" = Opens CERB Homepage
+"news", "get news" = Displays top 5 news articles about COVID-19
+"united states", "stats united states" = Get stats for United States only
+"canada", "stats canada" = Get stats for Canada only
+"reddit" = Displays top 5 Reddit posts about COVID-19
+"buy masks" = opens amazon link displaying masks
+"buy sanitizer" = opens amazon link displaying hand sanitizer
+"buy hand sanitizer" = opens amazon link displaying hand sanitizer
+"clinic" = displays list of nearby clinics for COVID-19
+"quit program" = shuts down program
+"close program" = shuts down program

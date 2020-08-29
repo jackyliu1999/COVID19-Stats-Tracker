@@ -1,0 +1,5 @@
+SpeechRecognition
+pipwin
+pyaudio
+pyttsx3
+newsapi-python
