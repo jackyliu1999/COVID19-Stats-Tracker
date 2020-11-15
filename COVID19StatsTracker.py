@@ -6,8 +6,8 @@ textToSpeech = p.init()
 voices = textToSpeech.getProperty("voices") #array of default text to speech voices
 textToSpeech.setProperty("voice", voices[1].id) #voice of id 1
 textToSpeech.setProperty('rate',120) #slows down voice
-print("Welcome to Coronaverse, please state your command")
-textToSpeech.say("Welcome to Coronaverse, please state your command") #says this as introduction prompt
+print("Welcome to COVID19 Stats Tracker, please state your command")
+textToSpeech.say("Welcome to COVID19 Stats Tracker, please state your command") #says this as introduction prompt
 textToSpeech.runAndWait()
 
 def command(newCommand):
@@ -49,6 +49,6 @@ while newText != "quit program" and newText != "close program" and newText != "q
         except sr.UnknownValueError:
             print("Computer: Invalid Command, please try again.")
 
-print("Coronaverse Exiting...")
-textToSpeech.say("Coronaverse Exiting") #says this as exit prompt
+print("COVID19 Stats Tracker Exiting...")
+textToSpeech.say("COVID19 Stats Tracker Exiting") #says this as exit prompt
 textToSpeech.runAndWait()
