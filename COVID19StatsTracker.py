@@ -1,6 +1,6 @@
 import speech_recognition as sr #pip install SpeechRecognition, #pip install pipwin, pipwin install pyaudio
 import pyttsx3 as p #pip install pyttsx3
-from Functions import *
+from Functions import * #importing commands from Functions
 
 textToSpeech = p.init()
 voices = textToSpeech.getProperty("voices") #array of default text to speech voices
